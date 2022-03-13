@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<nav>
+    <a href="reimbursementForm.html">Request Reimbursement</a>
+    <a href="UserServlets.ServletVRE">View Request</a>
+    <a href="UserServlets.ServletVEI">My Profile</a>
+    <a href="UserServlets.ServletELO">Logout</a>
+    <a href="mLogin.html">Manager Login</a>
+</nav>
+<div>
+    <form action="UserServlets.ServletELN" method="post">
+        <h2>Login</h2>
+        <p>Username: <input type="text" name="_username" placeholder="Enter username..."></p>
+        <p>Password: <input type="password" name="_password" placeholder="Enter password..."></p>
+        <input type="submit" value="login">
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>servletCRE</servlet-name>
+    <servlet-class>UserServlets.ServletCRE</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletCRE</servlet-name>
+    <url-pattern>/UserServlets.ServletCRE</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>servletVRE</servlet-name>
+    <servlet-class>UserServlets.ServletVRE</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletVRE</servlet-name>
+    <url-pattern>/UserServlets.ServletVRE</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>servletELN</servlet-name>
+    <servlet-class>UserServlets.ServletELN</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletELN</servlet-name>
+    <url-pattern>/UserServlets.ServletELN</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>servletUPE</servlet-name>
+    <servlet-class>UserServlets.ServletUPE</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletUPE</servlet-name>
+    <url-pattern>/UserServlets.ServletUPE</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>servletELO</servlet-name>
+    <servlet-class>UserServlets.ServletELO</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletELO</servlet-name>
+    <url-pattern>/UserServlets.ServletELO</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>servletVEI</servlet-name>
+    <servlet-class>UserServlets.ServletVEI</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletVEI</servlet-name>
+    <url-pattern>/UserServlets.ServletVEI</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ManagementServlets.MLoginServlet</servlet-name>
+    <servlet-class>ManagementServlets.MLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagementServlets.MLoginServlet</servlet-name>
+    <url-pattern>/ManagementServlets.MLoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ManagementServlets.AllEmpServlet</servlet-name>
+    <servlet-class>ManagementServlets.AllEmpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagementServlets.AllEmpServlet</servlet-name>
+    <url-pattern>/ManagementServlets.AllEmpServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ManagementServlets.EmpReqServlet</servlet-name>
+    <servlet-class>ManagementServlets.EmpReqServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagementServlets.EmpReqServlet</servlet-name>
+    <url-pattern>/ManagementServlets.EmpReqServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ManagementServlets.StatusServlet</servlet-name>
+    <servlet-class>ManagementServlets.StatusServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagementServlets.StatusServlet</servlet-name>
+    <url-pattern>/ManagementServlets.StatusServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ManagementServlets.NewEmpServlet</servlet-name>
+    <servlet-class>ManagementServlets.NewEmpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagementServlets.NewEmpServlet</servlet-name>
+    <url-pattern>/ManagementServlets.NewEmpServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ManagementServlets.PendingServlet</servlet-name>
+    <servlet-class>ManagementServlets.PendingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagementServlets.PendingServlet</servlet-name>
+    <url-pattern>/ManagementServlets.PendingServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ManagementServlets.ResolvedServlet</servlet-name>
+    <servlet-class>ManagementServlets.ResolvedServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagementServlets.ResolvedServlet</servlet-name>
+    <url-pattern>/ManagementServlets.ResolvedServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
